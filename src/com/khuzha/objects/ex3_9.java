@@ -9,5 +9,6 @@ public class ex3_9 {
                 res *= digit;
             }
         }
+        System.out.println("Произведение всех цифр, кратных 3, равно " + res);
     }
 }
