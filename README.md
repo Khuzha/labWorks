@@ -1,2 +1,0 @@
-# labWorks
-Laboratory works
