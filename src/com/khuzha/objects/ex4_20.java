@@ -6,16 +6,16 @@ public class ex4_20 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите число n:");
-        int n = scan.nextInt();
-        int pp = 0;
-        int p = 1;
-        int t = 0;
+        long n = scan.nextInt();
+        long pp = 0;
+        long p = 1;
 
-        for (int i = 1; i < n; i++) {
-            t = p + pp;
-
+        for (int i = 2; i <= n; ++i) {
+            long next = pp + p;
+            pp = p;
+            p = next;
         }
 
-        System.out.println("Число Фибоначчи с порядковым номером " + n + " равно " + x);
+        System.out.println("Число Фибоначчи с порядковым номером " + n + " равно " + p);
     }
 }
