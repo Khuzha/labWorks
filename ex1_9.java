@@ -23,6 +23,6 @@ public class ex1_9 {
             a = calc(k);
             sum += a;
         }
-        System.out.printf("Sum = " + sum + "a = " + a);
+        System.out.printf("Sum = " + sum + "a = " + a + "\n");
     }
 }

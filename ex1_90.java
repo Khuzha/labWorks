@@ -1,4 +1,4 @@
-package com.khuzha.objects;
+//package com.khuzha.objects;
 
 import java.util.Scanner;
 

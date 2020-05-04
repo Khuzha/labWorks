@@ -1,4 +1,4 @@
-package com.khuzha.objects;
+//package com.khuzha.objects;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class ex1_100 {
         float b = scan.nextFloat();
 
         float sak = (a * a + b * b) / 2;
-        float sam = (a + b) / 2;
+        float sam = (Math.abs(a) + Math.abs(b)) / 2;
         System.out.println("Среднее арифметическое суммы квадратов этих чисел равно: " + sak +
                 "\nСреднее арифметическое их модулей равно: " + sam);
     }
