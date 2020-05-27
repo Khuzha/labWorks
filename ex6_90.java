@@ -21,6 +21,10 @@ class ex6_90 {
 	public static void main(String[] args) {
 		float[] arr = { 1, 2, 25, 30, 14, 32, 52, 345, 6532 };
 		float target =  findTarget(arr);
-		System.out.println("Target is: " + target);
+		if (target != -1) {
+			System.out.println("Target is: " + target);
+		} else {
+			System.out.println("No such element");
+		}
 	}
 }
