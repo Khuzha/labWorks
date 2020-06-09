@@ -12,6 +12,5 @@ public class ex6_3 {
 		int[] arr = {1, 2, 3, -6};
 
 		System.out.println("res:" + findNegative(arr));
-
 	}
 }
