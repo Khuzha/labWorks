@@ -1,10 +1,15 @@
-package com.khuzha.objects;
-
 import java.util.Scanner;
 
 public class ex1_9 {
+    static int factorial(int n) {
+        if (n == 0)
+          return 1;
+        else
+          return(n * factorial(n-1));
+    }
+    
     private static  float calc (int k) {
-        float res = (float) (Math.pow(-1, ++k) / Math.pow(k, 2));
+        float res = (float) (Math.pow(-1, k) / factorial(k));
         return res;
     }
 
